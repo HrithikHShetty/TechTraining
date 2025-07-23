@@ -1,0 +1,18 @@
+//Wap to print a sample electricity bill. Given input:- service no., phone no., present reading., previous reading.
+
+#include<stdio.h>
+int main()
+{
+int SN,PN,Psnt,Prv,Kw;
+printf("Enter your phone number = ");
+scanf("%d",PN);
+printf("Enter your service number = ");
+scanf("%d",SN);
+printf("Enter the present reading = ");
+scanf("%d",Psnt):
+printf("Enter the previous reading = ");
+scanf("%d",Prv);
+kw=Psnt-Prv;
+printf("The amount of electicity consumed is=%d",KW);
+return 0;
+}
