@@ -1,0 +1,37 @@
+Q) Wap to demonstrate a structure datatype 
+
+#include<stdio.h>
+
+int main()
+
+{
+
+struct A
+
+{
+
+int x;
+
+float y;
+
+char z;
+
+}a;
+
+scanf("%d",\&a.x);
+
+a.y=36.50;
+
+a.z='M';
+
+printf(" The value of x =%d",a.x);
+
+printf("\\n The value of y =%d",a.y);
+
+printf("\\n The value of z =%d",a.z);
+
+printf("\\n The size of the stuct is =%d",sizeof(a));
+
+return 0;
+
+}
