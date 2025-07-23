@@ -1,0 +1,27 @@
+// A bus is travelling through 10 equal distance stops. Bus fare for each stop is Rs10 for adult, Rs5 for children, your task is to read source, destination, no. of adult and no. of children. Then find how many stops the passengers are travelling and also find ticket cost of the passengers respective to the no. of stops they are travelling. Now add 5% of road tax on ticket cost and display source stage no., destiation stage no., no. of adults, no. of children, ticket cost, road tax and the total price. 
+
+#include<stdio.h>
+int main()
+{
+int s,d,a,c,st,ac,cc,rta,rtc;
+printf(" Enter the source Stage");
+scanf("%d",&s);
+printf(" Enter the destination Stage");
+scanf("%d",&d);
+printf(" Enter the number of Adults");
+scanf("%d",&a);
+printf(" Enter the number of Children");
+scanf("%d",&c);
+st = d-s;
+printf("No. of stops the passengers are travelling=%d\n",st);
+ac=10*st;
+printf("Ticket cost of adults=%d\n",ac);
+cc=5*st;
+printf("Ticket cost of children=%d\n",cc);
+rta=(0.05*ac)+ac;
+printf(" Total ticket cost after road tax for adults is=%d\n",rta);
+rtc=(0.05*cc)+cc;
+printf(" Total ticket cost after road tax for children is=%d\n",rtc);
+return 0;
+}
+
