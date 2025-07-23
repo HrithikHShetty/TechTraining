@@ -1,19 +1,24 @@
-3\)Enumerated Datatype:- A user defined datatype that is used to store constant values is called as enumerated datatypes.
 
-syntax:- Enum enumName
+Q) Wap to demonstrate enumerated datatype.
 
-&nbsp;        {
+\#include<stdio.h>
 
-&nbsp;        enumMembers;
-
-&nbsp;        }enumVariable;
-
-Eg:-
-
-Enum week
+int main()
 
 {
 
-mon,tue,wed,thu,fri,sat
+enum week
+
+{
+
+mon,tye,wed,thu,fri,sat
 
 }a;
+
+a=thu;
+
+printf("%d",a);
+
+return 0;
+
+}
