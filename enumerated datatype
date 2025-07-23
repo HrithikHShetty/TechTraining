@@ -1,0 +1,19 @@
+3\)Enumerated Datatype:- A user defined datatype that is used to store constant values is called as enumerated datatypes.
+
+syntax:- Enum enumName
+
+&nbsp;        {
+
+&nbsp;        enumMembers;
+
+&nbsp;        }enumVariable;
+
+Eg:-
+
+Enum week
+
+{
+
+mon,tue,wed,thu,fri,sat
+
+}a;
