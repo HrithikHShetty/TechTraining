@@ -1,0 +1,23 @@
+2***) UNION***:- A user defined datatype used to access multiple values of defined datatypes is called as union.
+
+syntax:- union UnionName
+
+&nbsp;        {
+
+&nbsp;        UnionMembers;
+
+&nbsp;        }UnionVariable;
+
+Eg:- 
+
+union A
+
+{
+
+int x;
+
+float y;
+
+char z;
+
+} a;
