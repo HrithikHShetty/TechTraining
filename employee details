@@ -1,0 +1,59 @@
+Q) Wap to display employee name, employee id, salary, experience, department.
+
+\#include <stdio.h>
+
+struct Employee {
+
+&nbsp;   int id;
+
+&nbsp;   char name\[50];
+
+&nbsp;   float salary;
+
+&nbsp;   int experience;
+
+&nbsp;   char department\[50];
+
+}emp;
+
+int main() 
+
+{
+
+&nbsp;   struct Employee emp;
+
+&nbsp;   printf("Enter Employee ID: ");
+
+&nbsp;   scanf("%d", \&emp.id);
+
+&nbsp;   printf("Enter Employee Name: ");
+
+&nbsp;   scanf(" %\[^\\n]s", emp.name);
+
+&nbsp;   printf("Enter Salary: ");
+
+&nbsp;   scanf("%f", \&emp.salary);
+
+&nbsp;   printf("Enter Experience (in years): ");
+
+&nbsp;   scanf("%d", \&emp.experience);
+
+&nbsp;   printf("Enter Department: ");
+
+&nbsp;   scanf(" %\[^\\n]s", emp.department);
+
+&nbsp;   printf("\\n--- Employee Details ---\\n");
+
+&nbsp;   printf("ID         : %d\\n", emp.id);
+
+&nbsp;   printf("Name       : %s\\n", emp.name);
+
+&nbsp;   printf("Salary     : %.2f\\n", emp.salary);
+
+&nbsp;   printf("Experience : %d years\\n", emp.experience);
+
+&nbsp;   printf("Department : %s\\n", emp.department);
+
+&nbsp;   return 0;
+
+}
