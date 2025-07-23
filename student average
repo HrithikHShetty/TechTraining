@@ -1,0 +1,35 @@
+Q) Wap to store and display student name, 3 subject marks and average marks.
+
+\#include<stdio.h>
+
+int main()
+
+{
+
+struct student
+
+{
+
+int a,b,c;
+
+float avg;
+
+char s\[50];
+
+}stud;
+
+printf("Enter you Name ");
+
+scanf("%\[^\\n]s",stud.s);
+
+printf("\\nEnter 3 subject maks ");
+
+scanf("%d%d%d",\&stud.a,\&stud.b,\&stud.c);
+
+stud.avg = (stud.a+stud.b+stud.c)/3.0;
+
+printf("\\n The average mark is = %f",stud.avg);
+
+return 0;
+
+}
