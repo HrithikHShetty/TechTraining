@@ -1,0 +1,9 @@
+//division of two numbers
+#include<iostream>
+using namespace std;
+int main(){
+    float a = 25, b = 58, c;
+    c = a / b;
+    cout << "The Division of two numbers = " << c;
+    return 0;
+}
