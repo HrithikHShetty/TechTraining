@@ -1,0 +1,14 @@
+
+//Substraction of user given integers
+#include<iostream>
+using namespace std;
+int main(){
+int a,b,c;
+cout<<"Enter the first numbers";
+cin>>a;
+cout<<"Enter the second numbers";
+cin>>b;
+c=a-b;
+count<<"Result is equal to "<<c;
+return 0;
+}
